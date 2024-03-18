@@ -1,0 +1,14 @@
+{
+    "test":[
+        {
+            "id": 1,
+            "name": "Eren Yeager",
+            "Age": "22",
+            "alliance": "Jaegeristas",
+            "origin": "Paradise",
+            "titan": "Yes",
+            "Death": "Yes",
+            "img": "https://static.wikia.nocookie.net/shingekinokyojin/images/a/a1/Eren_Jaeger_(Anime)_character_image.png"  
+        }
+    ]
+}
