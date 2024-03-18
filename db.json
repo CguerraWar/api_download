@@ -2,13 +2,8 @@
     "test":[
         {
             "id": 1,
-            "name": "Eren Yeager",
-            "Age": "22",
-            "alliance": "Jaegeristas",
-            "origin": "Paradise",
-            "titan": "Yes",
-            "Death": "Yes",
-            "img": "https://static.wikia.nocookie.net/shingekinokyojin/images/a/a1/Eren_Jaeger_(Anime)_character_image.png"  
+            "text": "ZnJvbSBtYWNoaW5lIGltcG9ydCBQaW4sIHVuaXF1ZV9pZCwgVUFSVA0KaW1wb3J0IHRpbWUNCmltcG9ydCB1YXN5bmNpbw0KaW1wb3J0IHVqc29uDQpmcm9tIHNyYy5saWJzLlNpbTc2MDBEcml2ZXIgaW1wb3J0IFNpbTc2MDBEaXJ2ZXINCg0KdGltZS5zbGVlcCgzKQ0KcHJpbnQoIkluaWNpbyBkZSBwcm9ncmFtYSBlbi4uLiIpDQp0aW1lLnNsZWVwKDEpDQoNCiMgQ2FyZ28gbGFzIGNvbmZpZ3VyYWNpb25lcyBkZWwgZmljaGVybyAgJ0NvbmZpZ3MuanNvbicgY29udmVydGlkYXMgYSAnZGljdCcNCg0KIyBjb25mID0gdWpzb24ubG9hZHMob3Blbigic3JjL2Zpcm13YXJlL0NvbmZpZ3MuanNvbiIsICJyYiIpLnJlYWQoKSkNCg0KbW9kZW03NjAwID0gU2ltNzYwMERpcnZlcigwLCAxMTUyMDApDQoNCmFzeW5jIGRlZiBtYWluKCk6DQoNCiAgICB1YXJ0ID0gVUFSVCgwLCBiYXVkcmF0ZT0xMTUyMDApDQoNCiAgICB3aGlsZSBUcnVlOg0KDQogICAgICAgIHRvX2dldCAgPSAiaHR0cDovL215LWpzb24tc2VydmVyLnR5cGljb2RlLmNvbS9DZ3VlcnJhV2FyL2FwaV9kb3dubG9hZC9kYiIgDQogICAgICAgIHN0YXR1c19jb2RlLCByZXNwb25zZV9kYXRhID0gYXdhaXQgbW9kZW03NjAwLmh0dHBfZ2V0KHRvX2dldCkgIA0KICAgICAgIA0KICAgICAgICBwcmludCgiZGF0YTogIikNCiAgICAgICAgcHJpbnQocmVzcG9uc2VfZGF0YSkNCg0KICAgICAgICBhd2FpdCB1YXN5bmNpby5zbGVlcF9tcyg1MDAwKQ0KDQp1YXN5bmNpby5ydW4obWFpbigpKQ0K"
+            
         }
     ]
 }
