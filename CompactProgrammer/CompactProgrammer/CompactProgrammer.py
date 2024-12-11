@@ -9,9 +9,12 @@ import binascii
 
 endpoint_root = 'https://cguerrawar.github.io/api_download/'
 
-dir      = ["../../../Programer From Sim/", "../../../terralert-station-firmware-teensy/"]
-endpoint = ["TestProgramOta", "terralert"]
+# dir      = ["../../../Programer From Sim/", "../../../terralert-station-firmware-teensy/"]
+# endpoint = ["TestProgramOta", "terralert"]
 
+
+dir      = ["../../../terralert-station-firmware-teensy/"]
+endpoint = ["terralert"]
 
 idx = 0
 
