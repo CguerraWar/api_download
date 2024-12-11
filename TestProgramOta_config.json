@@ -1,0 +1,9 @@
+{
+      "main.py": 1,
+      "src/libs/OTA_Programmer.py": 1,
+      "src/libs/Sim7600Driver.py": 1,
+      "src/libs/TimeoutObject.py": 1,
+      "src/libs/Util.py": 1,
+      "src/libs/micropyGPS.py": 1,
+      "boot.py": 0
+}
