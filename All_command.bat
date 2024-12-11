@@ -4,8 +4,12 @@
 ::"C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\python.exe"  "CompactProgrammer\CompactProgrammer\CompactProgrammer.py"
 ::timeout /t 2 /nobreak > nul
 
+::echo Preparando archivo de programacion...
+start "" "%~dp0execute"
+timeout /t 2 /nobreak > nul
+
 :: Agregar todos los archivos
-echo Agregando archivos al área de preparación...
+echo Agregando archivos al area de preparacion...
 git add terralert.json
 timeout /t 2 /nobreak > nul
 
