@@ -15,7 +15,7 @@ timeout /t 2 /nobreak > nul
 
 :: Realizar el commit
 echo Realizando el commit...
-git commit -m "Actualización automática"
+git commit -m "Actualizacion automatica"
 timeout /t 5 /nobreak > nul
 
 :: Subir los cambios

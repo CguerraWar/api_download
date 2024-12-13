@@ -10,5 +10,6 @@
       "src/libs/OTA_Programmer.py": 1,
       "src/libs/Sim7600Driver.py": 1,
       "src/libs/TimeoutObject.py": 1,
-      "src/firmware/Init.json": 1
+      "src/firmware/Init.json": 1,
+      "src/libs/Filters.py": 1
 }
