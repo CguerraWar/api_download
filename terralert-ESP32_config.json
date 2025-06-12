@@ -1,0 +1,16 @@
+{
+      "boot.py": 1,
+      "ESP32_GENERIC-20250415-v1.25.0.bin": 0,
+      "main.py": 1,
+      "src/firmware/Configs.json": 1,
+      "src/firmware/DataBase.py": 1,
+      "src/firmware/GPS_Monitoring.py": 1,
+      "src/firmware/Util.py": 1,
+      "src/libs/BlynkEncoded.py": 1,
+      "src/libs/Filters.py": 1,
+      "src/libs/micropyGPS.py": 1,
+      "src/libs/OTA_Programmer.py": 1,
+      "src/libs/Sim7600Driver.py": 1,
+      "src/libs/TimeoutObject.py": 0,
+      "upload_all.py": 0
+}
