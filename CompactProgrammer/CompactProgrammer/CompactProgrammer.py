@@ -9,12 +9,12 @@ import binascii
 
 endpoint_root = 'https://cguerrawar.github.io/api_download/'
 
-# dir      = ["../../../Programer From Sim/", "../../../terralert-station-firmware-teensy/"]
-# endpoint = ["TestProgramOta", "terralert"]
+# dir      = ["../../../Programer From Sim/", "../../../terralert-station-firmware-teensy/", "../../../terralert-station-firmware-ESP32/"]
+# endpoint = ["TestProgramOta", "terralert", "terralert-ESP32"]
 
 
-dir      = ["../../../terralert-station-firmware-teensy/"]
-endpoint = ["terralert"]
+dir      = ["../../../terralert-station-firmware-teensy/", "../../../terralert-station-firmware-ESP32/"]
+endpoint = ["terralert", "terralert-ESP32"]
 
 idx = 0
 
@@ -27,7 +27,7 @@ for d in dir:
     dir_util = list()
     
     for fs in root_dir:
-        if fs != '.DS_Store' and fs != 'README.md' and fs != 'pymakr.conf' and fs != '.gitignore'  and fs != 'tools' and fs != '.vscode' and fs != '.git':
+        if fs != '.DS_Store' and fs != 'README.md' and fs != 'pymakr.conf' and fs != '.gitignore'  and fs != 'tools' and fs != '.vscode' and fs != '.git' and fs != 'ESP32_GENERIC-20250415-v1.25.0.bin':
             dir_util.append(fs)
             
     count_sub = 0
@@ -53,7 +53,7 @@ for d in dir:
     for f in dir_need:
         
         if "main.py" in f:
-            file = open(f, 'r')
+            file = open(f, 'r', encoding='utf-8')
             data = file.read()
             
             #i =  data.find("OtaProgrammer(", 0)

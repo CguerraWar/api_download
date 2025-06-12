@@ -11,6 +11,7 @@ timeout /t 2 /nobreak > nul
 :: Agregar todos los archivos
 echo Agregando archivos al area de preparacion...
 git add terralert.json
+git add terralert-ESP32.json
 timeout /t 2 /nobreak > nul
 
 :: Realizar el commit
