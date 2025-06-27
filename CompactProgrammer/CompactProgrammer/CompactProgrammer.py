@@ -7,6 +7,28 @@ import zlib
 import binascii
 
 
+import sys
+
+x = 1.0
+print(sys.getsizeof(x))  # Tamaño del objeto `float`
+
+import struct
+print(struct.calcsize('d'))  # Devuelve 8 (bytes)
+
+import math
+x = 1.2345678901234567
+pp = math.sin(x)  # Resultado:
+print(pp)
+
+x = 1.234567890123456789
+print(repr(x))  
+
+from mpmath import mp, sin
+
+mp.dps = 50  # 50 dígitos decimales
+x = mp.mpf('1.2345678901234567')
+print(sin(x))
+
 endpoint_root = 'https://cguerrawar.github.io/api_download/'
 
 # dir      = ["../../../Programer From Sim/", "../../../terralert-station-firmware-teensy/", "../../../terralert-station-firmware-ESP32/"]
